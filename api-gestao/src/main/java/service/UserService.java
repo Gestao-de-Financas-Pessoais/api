@@ -51,10 +51,12 @@ public class UserService {
         userRepository.deleteById(id);
     }
 
-    public Optional<UserResponseDTO> buscarPorEmail(String email) {
+    public UserResponseDTO buscarPorEmail(String email) {
 
-        return userRepository.findByEmail(email)
-                .map(UserMapper::toDto);
+        User usuario = userRepository.findByEmail(email)
+                .orElseThrow(() -> new UsuarioNaoEncontradoException("Usuário com email " + email + " não encontrado"));
+
+        return UserMapper.toDto(usuario);
     }
 
 }
