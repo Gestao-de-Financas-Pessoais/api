@@ -1,11 +1,9 @@
 package dto.request;
 
-import enums.StatusGoal;
-import jakarta.persistence.*;
+import enums.GoalStatus;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
-import model.User;
 
 import java.util.Date;
 
@@ -28,7 +26,7 @@ public class GoalRequestDTO {
     @PositiveOrZero(message = "O valor atual deve ser zero ou positivo")
     private Double valorAtual;
 
-    private StatusGoal statusMeta = StatusGoal.ATIVA;
+    private GoalStatus statusMeta = GoalStatus.ATIVA;
 
     @FutureOrPresent(message = "A data limite deve ser hoje ou uma data futura")
     private Date dataLimite;

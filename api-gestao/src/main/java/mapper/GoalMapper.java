@@ -2,7 +2,6 @@ package mapper;
 
 import dto.request.GoalRequestDTO;
 import dto.response.GoalResponseDTO;
-import dto.response.UserResponseDTO;
 import model.Goal;
 import model.User;
 import org.slf4j.Logger;

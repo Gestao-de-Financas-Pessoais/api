@@ -1,6 +1,6 @@
 package dto.response;
 
-import enums.StatusGoal;
+import enums.GoalStatus;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,6 +17,6 @@ public class GoalResponseDTO {
     private String nome;
     private Double valorObjetivo;
     private Double valorAtual;
-    private StatusGoal statusMeta;
+    private GoalStatus statusMeta;
     private Date dataLimite;
 }

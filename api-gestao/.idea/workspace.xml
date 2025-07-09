@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87dc9a62-cc25-4be5-8fef-3198a7916b32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GoalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/request/GoalRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/response/GoalResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StatusGoal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/LoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/MetaNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/GoalMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Goal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/GoalRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/GoalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/request/CategoryRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/response/CategoryResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/CategoryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/GoalRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/request/GoalRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/response/GoalResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/response/GoalResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/StatusGoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/GoalStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Goal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Exception" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/meta",
+    "git-widget-placeholder": "feature/categoria",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",

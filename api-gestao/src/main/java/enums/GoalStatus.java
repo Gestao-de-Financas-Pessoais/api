@@ -1,6 +1,6 @@
 package enums;
 
-public enum StatusGoal {
+public enum GoalStatus {
     ATIVA,
     CONCLUIDA,
     CANCELADA

@@ -1,6 +1,6 @@
 package model;
 
-import enums.StatusGoal;
+import enums.GoalStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -29,7 +29,7 @@ public class Goal {
 
     @Column(name = "status_meta")
     @Enumerated(EnumType.STRING)
-    private StatusGoal statusMeta;
+    private GoalStatus statusMeta;
 
     private Date dataLimite;
 
