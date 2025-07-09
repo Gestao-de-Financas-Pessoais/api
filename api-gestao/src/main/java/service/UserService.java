@@ -46,7 +46,7 @@ public class UserService {
 
         boolean existe = userRepository.existsById(id);
         if (!existe) {
-            throw new UsuarioNaoEncontradoException("Usuário com id " + id + "não encontrado");
+            throw new UsuarioNaoEncontradoException("Usuário com id " + id + " não encontrado");
         }
         userRepository.deleteById(id);
     }
