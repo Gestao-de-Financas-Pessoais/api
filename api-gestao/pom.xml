@@ -13,7 +13,7 @@
     </parent>
 
     <!--  Dados do criador do projeto  -->
-    <groupId>com.samarah.com.h</groupId>
+    <groupId>samarahcom.h</groupId>
     <artifactId>api-manager-finance</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-manager-finance</name>
