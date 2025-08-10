@@ -3,5 +3,6 @@ package enums;
 public enum StatusGoal {
     ATIVA,
     CONCLUIDA,
-    CANCELADA
+    CANCELADA,
+    EM_ANDAMENTO
 }
