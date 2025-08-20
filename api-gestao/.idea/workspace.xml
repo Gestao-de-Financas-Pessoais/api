@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87dc9a62-cc25-4be5-8fef-3198a7916b32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/exception/NaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagerFinanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/ManagerFinanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/controller/GoalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/CategoryRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/request/CategoryRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/GoalRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/request/GoalRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/request/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/request/UserRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/response/CategoryResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/response/CategoryResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/response/GoalResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/response/GoalResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/dto/response/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/CategoryStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/enums/CategoryStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/GoalStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/enums/GoalStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/LoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/exception/LoginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/MetaNaoEncontradaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/UsuarioNaoEncontradoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/mapper/GoalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/model/Goal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/GoalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/repository/GoalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/service/GoalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samarahcom/h/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ManagerFinanceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagerFinanceApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2z6PKgTU4zRjrrZSuiXWwZQ7phd" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/categoria&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87dc9a62-cc25-4be5-8fef-3198a7916b32" name="Changes" comment="" />
+      <created>1751048492448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751048492448</updated>
+    </task>
+    <servers />
+  </component>
+</project>
