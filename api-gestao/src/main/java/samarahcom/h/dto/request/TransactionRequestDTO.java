@@ -6,14 +6,14 @@ import jakarta.validation.constraints.Size;
 
 import lombok.Getter;
 import lombok.Setter;
-import samarahcom.h.enums.LaunchStatus;
+import samarahcom.h.enums.TransactionStatus;
 
 import java.util.Date;
 
 
 @Getter
 @Setter
-public class LaunchRequestDTO {
+public class TransactionRequestDTO {
 
     @NotNull(message = "O ID do usuário é obrigatório")
     private Integer idUsuario;
@@ -32,5 +32,5 @@ public class LaunchRequestDTO {
     private Date dataLancamento;
 
     @NotNull(message = "A natureza do lançamento é obrigatória")
-    private LaunchStatus naturezaLancamento;
+    private TransactionStatus naturezaLancamento;
 }

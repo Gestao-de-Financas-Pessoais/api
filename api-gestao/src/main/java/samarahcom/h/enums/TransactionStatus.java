@@ -1,6 +1,6 @@
 package samarahcom.h.enums;
 
-public enum LaunchStatus {
+public enum TransactionStatus {
     FIXO,
     VARIAVEL
 }

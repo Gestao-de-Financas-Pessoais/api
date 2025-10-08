@@ -1,45 +1,41 @@
 package samarahcom.h.service;
 
 
-import samarahcom.h.dto.request.LaunchRequestDTO;
-import samarahcom.h.dto.response.LaunchResponseDTO;
+import samarahcom.h.dto.request.TransactionRequestDTO;
+import samarahcom.h.dto.response.TransactionResponseDTO;
 import samarahcom.h.exception.NaoEncontradoException;
-import samarahcom.h.mapper.LaunchMapper;
-import samarahcom.h.model.Launch;
-import samarahcom.h.repository.CategoryRepository;
-import samarahcom.h.repository.LaunchRepository;
+import samarahcom.h.mapper.TransactionMapper;
+import samarahcom.h.model.Transaction;
+import samarahcom.h.repository.TransactionRepository;
 import samarahcom.h.repository.UserRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class LaunchService {
+public class TransactionService {
 
-    private final LaunchRepository launchRepository;
-    private final CategoryRepository categoryRepository;
+    private final TransactionRepository launchRepository;
     private final UserRepository userRepository;
 
-    public LaunchService(
-            LaunchRepository launchRepository,
-            CategoryRepository categoryRepository,
+    public TransactionService(
+            TransactionRepository launchRepository,
             UserRepository userRepository
     ) {
         this.launchRepository = launchRepository;
-        this.categoryRepository = categoryRepository;
         this.userRepository = userRepository;
     }
 
-    public LaunchResponseDTO criar(LaunchRequestDTO dto) {
+    public TransactionResponseDTO criar(TransactionRequestDTO dto) {
 
-        Launch launch = LaunchMapper.toEntity(dto);
-        Launch salvo = launchRepository.save(launch);
+        Transaction launch = TransactionMapper.toEntity(dto);
+        Transaction salvo = launchRepository.save(launch);
 
-        return LaunchMapper.toDto(salvo);
+        return TransactionMapper.toDto(salvo);
     }
 
-    public LaunchResponseDTO atualizar(LaunchRequestDTO dto, Integer id) {
+    public TransactionResponseDTO atualizar(TransactionRequestDTO dto, Integer id) {
 
-        Launch existente = launchRepository.findById(id)
+        Transaction existente = launchRepository.findById(id)
                 .orElseThrow(() -> new NaoEncontradoException("Lançamento com ID " + id + " não encontrado"));
 
         existente.setDescricao(dto.getDescricao());
@@ -47,9 +43,9 @@ public class LaunchService {
         existente.setDataLancamento(dto.getDataLancamento());
         existente.setNaturezaLancamento(dto.getNaturezaLancamento());
 
-        Launch salvo = launchRepository.save(existente);
+        Transaction salvo = launchRepository.save(existente);
 
-        return LaunchMapper.toDto(salvo);
+        return TransactionMapper.toDto(salvo);
     }
 
     public void deletar(Integer id) {
@@ -64,7 +60,7 @@ public class LaunchService {
 
     }
 
-    public List<LaunchResponseDTO> listarPorusuario(Integer idUsuario){
+    public List<TransactionResponseDTO> listarPorUsuario(Integer idUsuario){
 
         boolean existe = userRepository.existsById(idUsuario);
 
@@ -72,11 +68,23 @@ public class LaunchService {
             throw new NaoEncontradoException("Usuário com id " + idUsuario + " não encontrado.");
         }
 
-        List<Launch> lancamentos = launchRepository.findByIdUsuario_IdUsuario(idUsuario);
+        List<Transaction> lancamentos = launchRepository.findByIdUsuario_IdUsuario(idUsuario);
 
         return lancamentos.stream()
-                .map(LaunchMapper::toDto)
+                .map(TransactionMapper::toDto)
                 .collect(Collectors.toList());
     }
+
+    /*
+
+    Adicionar funcianalidades depois como :
+
+    trnsações das ultimas 24 horas
+    ultimos 7 dias
+    ultimos 15 dias
+    ultimos 30 dias
+    periods de X á Y
+
+    */
 
 }

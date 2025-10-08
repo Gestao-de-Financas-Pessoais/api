@@ -2,7 +2,7 @@ package samarahcom.h.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import samarahcom.h.enums.LaunchStatus;
+import samarahcom.h.enums.TransactionStatus;
 
 import java.util.Date;
 
@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "lancamento")
-public class Launch {
+public class Transaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,7 +23,7 @@ public class Launch {
     private String descricao;
     private Double valor;
     private Date dataLancamento;
-    private LaunchStatus naturezaLancamento;
+    private TransactionStatus naturezaLancamento;
 
     @ManyToOne
     private User idUsuario;
