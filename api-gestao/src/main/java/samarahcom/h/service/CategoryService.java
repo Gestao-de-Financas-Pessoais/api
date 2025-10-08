@@ -94,5 +94,4 @@ public class CategoryService {
         return CategoryMapper.toDto(categoria);
     }
 
-
 }
